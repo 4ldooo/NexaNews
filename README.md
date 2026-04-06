@@ -23,4 +23,4 @@ Dark mode modern,
 Responsive (Bootstrap),
 Badge otomatis (Viral / Trending / Baru).
 
-AhmadAliM.
+-AhmadAliM.
