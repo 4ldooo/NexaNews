@@ -3,6 +3,11 @@ include '../koneksi.php';
 include 'layout/header.php';
 include 'layout/sidebar.php';
 
+if(!isset($_SESSION['login'])){
+    header("Location: ../admin/login.php");
+    exit;
+}
+
 $data = mysqli_query($conn, "SELECT * FROM admin");
 ?>
 

@@ -23,7 +23,6 @@ if(!isset($_SESSION['login'])){
     header("Location: ../admin/login.php");
     exit;
 }
-
 // TOTAL
 $jml_artikel = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM artikel"));
 $jml_kategori = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM kategori"));

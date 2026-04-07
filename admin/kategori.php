@@ -4,7 +4,7 @@ include 'layout/header.php';
 include 'layout/sidebar.php';
 
 if(!isset($_SESSION['login'])){
-    header("Location: ../login.php");
+    header("Location: ../admin/login.php");
     exit;
 }
 
