@@ -1,4 +1,4 @@
-NexusNews merupakan project website portal berita/artikel berita yang memiliki fitur diantaranya :
+NexaNews merupakan project website portal berita/artikel berita yang memiliki fitur diantaranya :
 
 🎯 FITUR UTAMA
 Login & Role (admin / editor),
